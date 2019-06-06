@@ -1,0 +1,42 @@
+{
+  "name": "react-use-tornis",
+  "version": "0.1.0",
+  "description": "React hooks for Tornis",
+  "main": "index.js",
+  "author": "Guillaume `Schlipak` de Matos",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Schlipak/react-use-tornis.git"
+  },
+  "keywords": [
+    "scroll",
+    "scroll position",
+    "scroll velocity",
+    "mouse",
+    "mouse position",
+    "mouse velocity",
+    "resize",
+    "react",
+    "hook",
+    "react hook",
+    "tornis"
+  ],
+  "bugs": {
+    "url": "https://github.com/Schlipak/react-use-tornis/issues"
+  },
+  "homepage": "https://github.com/Schlipak/react-use-tornis#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "tornis": "^0.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
