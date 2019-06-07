@@ -1,6 +1,6 @@
 {
   "name": "react-use-tornis",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "React hooks for Tornis",
   "main": "index.js",
   "author": "Guillaume `Schlipak` de Matos",
