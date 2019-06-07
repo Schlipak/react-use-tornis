@@ -4,7 +4,7 @@
   "description": "React hooks for Tornis",
   "main": "index.js",
   "author": "Guillaume `Schlipak` de Matos",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
