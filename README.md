@@ -2,6 +2,20 @@
 
 Hooks for Tornis which allow your components to track mouse and scroll position and velocity, and viewport size.
 
+## Installation
+
+Install with npm:
+
+```sh
+npm i react-use-tornis
+```
+
+or yarn:
+
+```sh
+yarn add react-use-tornis
+```
+
 ## Hooks
 
 ### useTornis
@@ -71,7 +85,7 @@ const ProgressBar = withTornis(
       element.style.transform = `scaleX(${percent})`;
     }
   },
-  forwardRef((props, ref) => (
+  forwardRef(({ percent }, ref) => (
     <div className="progress-bar" style={{ transform: `scaleX(${percent})` }} />
   )),
 );
